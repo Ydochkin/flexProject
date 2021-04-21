@@ -1,0 +1,316 @@
+            $colorBack:#81b300;
+            body {
+                border: 20px solid #1f1f1f;
+                margin: 0 auto;
+                max-width: 1600px;
+        
+            }
+            
+            .line {
+                height: 5px;
+                background-color: $colorBack;
+            }
+            
+            .Header {
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            
+            .Header:after {
+                content: '';
+                clear: both;
+                display: block;
+            }
+            
+            .headerLeft {
+                float: left;
+                h1 {
+                    font-family: "Georgia", sans-serif;
+                    font-size: 46px;
+                    line-height: 46px;
+                    font-weight: 400;
+                    color: #333333;
+                }
+                p {
+                    font-family: "Georgia", sans-serif;
+                    font-size: 12px;
+                    line-height: 12px;
+                    font-weight: 400;
+                    color: #999999;
+                }
+            }
+            
+            .headerRight {
+                float: right;
+                .headerRightTop {
+                    background-color: $colorBack;
+                    border-radius: 0 0 10px 10px;
+                    height: 30px;
+                    i {
+                        text-align: center;
+                        padding-left: 15px;
+                        cursor: pointer;
+                    }
+                    i:hover {
+                        color: #00acee;
+                    }
+                }
+            }
+            
+            .headerBottom {
+                margin-top: 40px;
+                a {
+                    text-decoration: none;
+                    font-family: "Georgia", sans-serif;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-weight: 400;
+                    color: $colorBack;
+                }
+                a:hover {
+                    color: #000;
+                }
+            }
+            
+            .menu {
+                display: flex;
+                background-color: $colorBack;
+                background-size: cover;
+                min-height: 60px;
+                ul {
+                    justify-content: center;
+                    li {
+                        display: inline;
+                        list-style: none;
+                        a {
+                            text-decoration: none;
+                            font-family: "Georgia", sans-serif;
+                            font-size: 13px;
+                            line-height: 13px;
+                            font-weight: 400;
+                            color: #ffffff;
+                            padding-left: 15px;
+                        }
+                        a:hover {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+            
+            form {
+                display: block;
+            }
+            
+            .search1 {
+                border: none;
+                width: 282px;
+                height: 20px;
+                margin-left: 30px;
+            }
+            
+            .search2 {
+                cursor: pointer;
+                height: 20px;
+                border: none;
+                background-color: #FFF;
+                margin-left: -5px;
+                color: $colorBack;
+                font-family: "Georgia", sans-serif;
+                font-size: 12px;
+                line-height: 14px;
+                font-weight: 400;
+            }
+            
+            .slider {
+                display: flex;
+                justify-content: center;
+                background-color: #f2f2f2;
+            }
+            
+            .sliderIn {
+                margin: 40px;
+                width: 880px;
+                height: 360px;
+                padding: 40px;
+                border: 8px solid #FFF;
+                background: url(../img/gazeta.jpg) no-repeat center center;
+            }
+            
+            .viva {
+                display: flex;
+                justify-content: center;
+                .vivaIn {
+                    text-align: center;
+                    margin: 5px;
+                    h3 {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 18px;
+                        line-height: 21px;
+                        font-weight: 400;
+                        color: $colorBack;
+                    }
+                    p {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: #888888;
+                    }
+                }
+            }
+            
+            .project {
+                display: flex;
+                justify-content: center;
+                .projectIn {
+                    text-align: center;
+                }
+                img {
+                    border: 2px solid
+                }
+                h3 {
+                    font-family: "Georgia", sans-serif;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    color: #444444;
+                }
+                p {
+                    font-family: "Georgia", sans-serif;
+                    font-size: 13px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #878787;
+                }
+                a {
+                    text-decoration: none;
+                    font-family: Georgia;
+                    font-size: 13px;
+                    line-height: 13px;
+                    font-weight: 400;
+                    color: $colorBack;
+                }
+                a:hover {
+                    color: darkolivegreen;
+                }
+            }
+            
+            .footerBig {
+                display: flex;
+                justify-content: space-around;
+                flex: auto;
+                background-color: #3b3b3b;
+                .footerBigIn {
+                    max-width: 200px;
+                    h3 {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 13px;
+                        line-height: 15px;
+                        font-weight: 400;
+                        color: #666666;
+                    }
+                    p {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: #999999;
+                    }
+                }
+            }
+            
+            .liFoot {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    font-family: "Georgia", sans-serif;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-weight: 400;
+                    color: #999999;
+                }
+                a:hover {
+                    color: $colorBack;
+                }
+            }
+            
+            .footerBigIn {
+                section {
+                    h3 {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 13px;
+                        line-height: 15px;
+                        font-weight: 400;
+                        color: #999999;
+                    }
+                    .p1 {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 13px;
+                        line-height: 15px;
+                        font-weight: 400;
+                        color: #999999;
+                    }
+                    .p2 {
+                        font-family: "Georgia", sans-serif;
+                        font-size: 11px;
+                        line-height: 13px;
+                        font-weight: 400;
+                        color: #999999;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    font-family: "Georgia", sans-serif;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-weight: 400;
+                    color: #999999;
+                }
+                a:hover {
+                    color: $colorBack;
+                }
+            }
+            
+            .footerBigIn {
+                form {
+                    input {
+                        border: none;
+                        background-color: #1f1f1f;
+                        font-family: Georgia;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: #999999;
+                    }
+                    .submit {
+                        color: $colorBack;
+                        margin: 2px;
+                        border-radius: 8px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+            .footerEnd {
+                height: 30px;
+                background-color: #2e2e2e;
+                .footerLeft {
+                    margin-left: 5px;
+                    float: left;
+                    font-family: "Georgia", sans-serif;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-weight: 400;
+                    color: #737373;
+                }
+                .footerRight {
+                    margin-right: 5px;
+                    float: right;
+                    font-family: "Georgia", sans-serif;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-weight: 400;
+                    color: #737373;
+                }
+            }
